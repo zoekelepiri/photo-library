@@ -1,0 +1,39 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    max-height: 800px; 
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 180px;
+  }
+  
+  
+  button {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+    text-align: center;
+  }
+  
+  button:hover {
+    background: #e84118;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  

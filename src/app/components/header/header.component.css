@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 60px;
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff4757;
+}
+
+nav a.active {
+  border-bottom: 2px solid #ff4757;
+}

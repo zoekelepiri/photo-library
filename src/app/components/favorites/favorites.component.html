@@ -1,0 +1,9 @@
+<div class="gallery">
+  <div *ngFor="let photo of favorites" class="photo">
+    <a [routerLink]="['/photos', photo.id]">
+      <img [src]="photo.download_url" [alt]="photo.author" />
+    </a>
+    <button (click)="removeFavorite(photo.id)">Remove</button>
+  </div>
+</div>
+

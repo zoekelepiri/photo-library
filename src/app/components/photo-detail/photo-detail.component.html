@@ -1,0 +1,7 @@
+<div class="photo-detail" *ngIf="photo">
+    <img [src]="photo.download_url" [alt]="photo.author" class="full-photo" />
+    <button (click)="toggleFavorite()">
+      {{ isFavorite() ? 'Remove from favorites' : 'Add to favorites' }}
+    </button>
+  </div>
+  
